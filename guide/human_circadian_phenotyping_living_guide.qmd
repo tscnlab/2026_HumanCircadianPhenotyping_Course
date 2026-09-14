@@ -1,0 +1,936 @@
+---
+title: "Human circadian phenotyping"
+subtitle: "Living guide"
+author: "Course director: Prof. Dr. Manuel Spitschan"
+date: 2026-08-14
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    smooth-scroll: true
+    embed-resources: true
+editor: visual
+---
+
+# Purpose of this guide
+
+This document is intended to become a living, cohort-built guide to measuring melatonin in human circadian research. It combines the course timetable, a common reading core, individual student literature assignments, and a structured protocol framework that can be refined during the week. The emphasis is not simply on learning how to collect saliva samples. By the end of the course, the guide should make explicit how participant preparation, light exposure, food and substances, posture, biological specimen, sample timing, pre-analytics, assay choice, DLMO calculation, metadata and quality control can each change the meaning of a melatonin profile. The course runs from Monday, 14 September to Friday, 18 September 2026 at the Max Planck Institute for Biological Cybernetics in Tübingen. Evening data collection is built around repeated melatonin measurements from 18:00 to 00:00 on Monday through Thursday.
+
+# How the living document works
+
+Each participant owns one section of the guide. Before the course, the assigned student should use the seed literature below as a starting point, extend the search independently, and prepare a concise evidence synthesis. During the course, each section will be revised in light of the practical data collection and group discussion. By Friday, the goal is to convert the literature summaries into concrete recommendations for a reproducible melatonin protocol. The student sections should therefore answer a methodological question, not simply summarize papers. Statements should distinguish evidence from convention, identify uncertainty, and end with a recommendation about what should be standardized, measured, documented or reported.
+
+## Student contribution and presentation requirements
+
+The following limits keep the contributions comparable and make it possible to integrate all 19 sections into one guide.
+
+| Component | Requirement |
+|------------------------------------|------------------------------------|
+| Written contribution | **Maximum 600 words**, excluding references |
+| Literature | **5-8 references total**, including the seed literature; at least **2 additional papers** found independently |
+| Evidence mix | Include primary evidence and, where useful, a methodological paper or review |
+| Protocol recommendation | End with a **maximum 80-word** practical recommendation |
+| Oral presentation | **5 minutes** plus **1 minute** for a question or clarification |
+| Slides | Up to **3 content slides**, plus one references slide if needed |
+| Referencing | Provide DOI and PMID whenever available; if one identifier is unavailable, provide the identifier that is available |
+
+The 600-word preparatory contribution is separate from the course's 2000-word assessed report.
+
+# Course schedule
+
+The afternoon and evening structure is designed around lectures beginning at 16:00 and repeated melatonin sampling from 18:00 to 00:00. Friday is reserved for student presentations, synthesis and completion of the living guide, with the course ending by 12:00.
+
+| Day | Teaching | Melatonin sampling | Main purpose |
+|------------------|------------------|------------------|------------------|
+| Monday, 14 September | From 16:00: course introduction; melatonin physiology; DLMO; practical sampling setup | **18:00-00:00, every 30 minutes (13 planned samples)** | Learn the collection workflow and establish consistent documentation |
+| Tuesday, 15 September | From 16:00: sampling matrices, pre-analytics, food/substance effects and assays | **18:00-00:00, every 30 minutes (13 planned samples)** | Connect practical sampling decisions to pre-analytical and analytical validity |
+| Wednesday, 16 September | From 16:00: biological and behavioral modifiers; quality control | **18:00-00:00, every 30 minutes (13 planned samples)** | Examine standardization, deviations and biological variability |
+| Thursday, 17 September | From 16:00: light, prior light history, DLMO analysis, reproducibility and synthesis | **18:00-00:00, every 30 minutes (13 planned samples)** | Link sampling, exposure measurement and phase estimation |
+| Friday, 18 September | **09:00-11:30 student presentations and integration; 11:30-12:00 final synthesis and close** | No evening collection | Convert the week's evidence and experience into the final guide |
+
+# Common framework for every melatonin collection evening
+
+The final guide should make every evening traceable from participant state through assay result. At minimum, each sampling night should capture the session identifier, actual clock time of every sample, any deviation from schedule, the light environment, relevant food and substance exposure, posture and activity, the biological specimen and collection device, sample handling and storage, assay method and batch, and the rule used to derive DLMO or other phase markers. The same metadata structure should be used across all four nights so that biological differences can be separated from changes in measurement practice.
+
+::: callout-important
+## Sampling schedule
+
+Melatonin samples are collected **every 30 minutes from 18:00 through 00:00**, giving **13 planned samples per participant per evening**: 18:00, 18:30, 19:00, 19:30, 20:00, 20:30, 21:00, 21:30, 22:00, 22:30, 23:00, 23:30 and 00:00. The planned and actual collection time should both be recorded so that deviations are visible during analysis.
+:::
+
+# Core reading for everyone
+
+-   Lockley SW. Journal of Pineal Research guideline for authors: Measuring melatonin in humans. *Journal of Pineal Research*. 2020. DOI: [10.1111/jpi.12664](https://doi.org/10.1111/jpi.12664). PMID: 32344453.
+-   Benloucif S et al. Measuring melatonin in humans. *Journal of Clinical Sleep Medicine*. 2008. DOI: [10.5664/jcsm.27083](https://doi.org/10.5664/jcsm.27083). PMID: 18350967.
+-   St Hilaire MA, Lockley SW. Measuring Dim Light Melatonin Onset in Humans. *Methods in Molecular Biology*. 2022. DOI: [10.1007/978-1-0716-2593-4_3](https://doi.org/10.1007/978-1-0716-2593-4_3). PMID: 36180672.
+-   Kennaway DJ. The appropriate and inappropriate uses of saliva melatonin measurements. *Chronobiology International*. 2024. DOI: [10.1080/07420528.2024.2428197](https://doi.org/10.1080/07420528.2024.2428197). PMID: 39533493.
+
+The core papers provide a common vocabulary for the week. Students should then use their topic-specific seed literature below, followed by an independent search that brings the section up to date and tests whether the initial papers still support current practice.
+
+# Student-topic assignment overview
+
+| Student | Assigned topic | Main contribution to the final guide |
+|------------------------|------------------------|------------------------|
+| Carolina Guidolin | Melatonin physiology, circadian phase and the DLMO concept | Define the conceptual interpretation that should accompany every DLMO estimate in the final guide. |
+| Gabriel Agbeshie | Sampling window, sampling frequency and DLMO threshold | Recommend a sampling-window and analysis rule set, while clearly identifying what remains study-specific. |
+| Lorna Caddick | Sleep timing, chronotype and phase angle | Specify the minimum sleep-timing information that should accompany each melatonin profile. |
+| Nicole Needham | Salivary melatonin collection and pre-analytics | Produce the step-by-step saliva collection standard and deviation log for the living guide. |
+| Özgun Yetkin | Plasma and serum melatonin and blood collection | Define when blood sampling is justified and which collection and processing variables must be reported. |
+| Maria Oertel | Urinary melatonin and 6-sulphatoxymelatonin (aMT6s) | Specify the minimum requirements for a valid timed urinary aMT6s collection and report. |
+| Xu Nuo | Home versus laboratory DLMO assessment, compliance and quality control | Create a compact compliance and quality-control checklist that can be used for both laboratory and home sampling. |
+| Lucien Bickerstaff | Radioimmunoassay (RIA) for melatonin | Define the assay-performance information that a paper or dataset using RIA should report. |
+| Isabel Santoja | ELISA and enzyme immunoassays for melatonin | Produce a minimum assay-validation checklist for ELISA/EIA-based melatonin work. |
+| Lauren Lederer | LC-MS/MS and assay comparability | Define when assay-method changes require bridging or method-comparison data. |
+| Luisa Lopes | Food, fasting, meal timing and oral contamination | Recommend a practical food and drink rule for the sampling window, with a rationale and a plan for documenting deviations. |
+| Catherine Bratschi | Caffeine, alcohol, medications and exogenous melatonin | Create a short pre-sampling substance and medication questionnaire plus a deviation rule for the guide. |
+| Aadesh Dave | Posture and physical activity effects | Recommend a posture and activity standardization rule that is realistic for a six-hour evening protocol. |
+| Zahrah Alkaff | Menstrual cycle, hormonal contraception and reproductive state | Propose a minimal, respectful set of reproductive-state metadata and explain how it should be used in analysis or sensitivity checks. |
+| Serhat Yildiz | Sex-related differences in melatonin and circadian timing | State what sex-related variables should be reported and what claims should be avoided without adequate design and power. |
+| José Mora-Almanza | Age and lifespan differences in melatonin | Define the age information and age-sensitive interpretation that should accompany melatonin results. |
+| Resshaya Murukesu | Population, ancestry and ethnicity-related variation in melatonin and circadian timing | Write guidance for inclusive participant characterization and cautious interpretation of population differences. |
+| Andrea Sancho-Salas | Light exposure during melatonin sampling | Specify the light-control and light-reporting section of the evening sampling protocol. |
+| Theodore Krenek | Prior light history and interindividual light sensitivity | Propose what prior-light data should be collected and how multi-night session order should be documented and justified. |
+
+# Foundations and phase estimation
+
+## Melatonin physiology, circadian phase and the DLMO concept
+
+**Assigned student:** Carolina Guidolin
+
+Establish what endogenous melatonin is, why its evening rise is useful as a circadian phase marker, and what DLMO does and does not measure. Distinguish circadian phase from melatonin concentration or amplitude, and explain why a full time series is more informative than a single sample.
+
+The section should resolve three practical questions:
+
+-   What physiological process generates the nocturnal melatonin rhythm?
+-   Why is DLMO used as a marker of central circadian phase?
+-   Which conclusions can and cannot be drawn from DLMO timing and melatonin amplitude?
+
+**Protocol contribution:** Define the conceptual interpretation that should accompany every DLMO estimate in the final guide.
+
+### Seed literature
+
+-   Benloucif S et al. Measuring melatonin in humans. *Journal of Clinical Sleep Medicine*. 2008. DOI: [10.5664/jcsm.27083](https://doi.org/10.5664/jcsm.27083). PMID: 18350967.
+-   St Hilaire MA, Lockley SW. Measuring Dim Light Melatonin Onset in Humans. *Methods in Molecular Biology*. 2022. DOI: [10.1007/978-1-0716-2593-4_3](https://doi.org/10.1007/978-1-0716-2593-4_3). PMID: 36180672.
+-   Lockley SW. Journal of Pineal Research guideline for authors: Measuring melatonin in humans. *Journal of Pineal Research*. 2020. DOI: [10.1111/jpi.12664](https://doi.org/10.1111/jpi.12664). PMID: 32344453.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Sampling window, sampling frequency and DLMO threshold
+
+**Assigned student:** Gabriel Agbeshie
+
+Examine how the timing and frequency of samples affect DLMO estimation. Compare fixed and relative threshold approaches, consider low secretors and incomplete profiles, and identify the trade-off between burden, assay cost and phase-estimation precision.
+
+The section should resolve three practical questions:
+
+-   How early before expected DLMO should sampling begin and how long should it continue?
+-   What is lost when sampling is hourly rather than every 30 minutes?
+-   How should thresholds, interpolation and failed DLMO estimates be documented?
+
+**Protocol contribution:** Recommend a sampling-window and analysis rule set, while clearly identifying what remains study-specific.
+
+### Seed literature
+
+-   Molina TA, Burgess HJ. Calculating the dim light melatonin onset: the impact of threshold and sampling rate. *Chronobiology International*. 2011. DOI: [10.3109/07420528.2011.597531](https://doi.org/10.3109/07420528.2011.597531). PMID: 21823817.
+-   St Hilaire MA, Lockley SW. Measuring Dim Light Melatonin Onset in Humans. *Methods in Molecular Biology*. 2022. DOI: [10.1007/978-1-0716-2593-4_3](https://doi.org/10.1007/978-1-0716-2593-4_3). PMID: 36180672.
+-   Kennaway DJ. The dim light melatonin onset across ages, methodologies, and sex and its relationship with morningness/eveningness. *Sleep*. 2023. DOI: [10.1093/sleep/zsad033](https://doi.org/10.1093/sleep/zsad033). PMID: 36799668.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Sleep timing, chronotype and phase angle
+
+**Assigned student:** Lorna Caddick
+
+Describe the relationship between sleep timing, chronotype and endogenous melatonin phase. Focus on phase angle, why habitual bedtime alone cannot replace a DLMO assessment, and which sleep-timing variables should be collected alongside melatonin.
+
+The section should resolve three practical questions:
+
+-   How is DLMO typically related to sleep onset and wake timing?
+-   Why do phase-angle relationships vary between individuals?
+-   Which sleep diary or actigraphy variables are essential contextual metadata?
+
+**Protocol contribution:** Specify the minimum sleep-timing information that should accompany each melatonin profile.
+
+### Seed literature
+
+-   Sletten TL et al. Timing of sleep and its relationship with the endogenous melatonin rhythm. *Frontiers in Neurology*. 2010. DOI: [10.3389/fneur.2010.00137](https://doi.org/10.3389/fneur.2010.00137). PMID: 21188265.
+-   Kennaway DJ. The dim light melatonin onset across ages, methodologies, and sex and its relationship with morningness/eveningness. *Sleep*. 2023. DOI: [10.1093/sleep/zsad033](https://doi.org/10.1093/sleep/zsad033). PMID: 36799668.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+# Biological specimens and collection setting
+
+## Salivary melatonin collection and pre-analytics
+
+**Assigned student:** Nicole Needham
+
+Develop the practical section on saliva collection. Cover passive drool versus collection devices, oral contamination, sample volume, collection duration, labeling, immediate handling, storage, freeze-thaw considerations and documentation of deviations. Emphasize how pre-analytical choices can interact with the assay.
+
+The section should resolve three practical questions:
+
+-   Which collection devices are suitable for low salivary melatonin concentrations?
+-   What should participants avoid or document around sample collection?
+-   Which collection, handling and storage metadata are needed for reproducibility?
+
+**Protocol contribution:** Produce the step-by-step saliva collection standard and deviation log for the living guide.
+
+### Seed literature
+
+-   Kozaki T et al. Effects of saliva collection using cotton swabs on melatonin enzyme immunoassay. *Journal of Circadian Rhythms*. 2011. DOI: [10.1186/1740-3391-9-1](https://doi.org/10.1186/1740-3391-9-1). PMID: 21219623.
+-   Kozaki T, Hidaka Y. Non-cotton swab sample collection may not affect salivary melatonin assay results. *Journal of Physiological Anthropology*. 2018. DOI: [10.1186/s40101-018-0178-6](https://doi.org/10.1186/s40101-018-0178-6). PMID: 29914553.
+-   Kennaway DJ. The appropriate and inappropriate uses of saliva melatonin measurements. *Chronobiology International*. 2024. DOI: [10.1080/07420528.2024.2428197](https://doi.org/10.1080/07420528.2024.2428197). PMID: 39533493.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Plasma and serum melatonin and blood collection
+
+**Assigned student:** Özgun Yetkin
+
+Review blood-based melatonin measurement, including total versus free melatonin, plasma versus serum, repeated venous sampling, sample handling and the relationship between blood and saliva concentrations. Compare scientific advantages with participant burden and practical complexity.
+
+The section should resolve three practical questions:
+
+-   What does blood measurement offer that saliva does not?
+-   How closely do salivary and plasma melatonin track one another?
+-   Which blood-processing details can alter comparability across studies?
+
+**Protocol contribution:** Define when blood sampling is justified and which collection and processing variables must be reported.
+
+### Seed literature
+
+-   Kennaway DJ, Voultsios A. Circadian rhythm of free melatonin in human plasma. *Journal of Clinical Endocrinology & Metabolism*. 1998. DOI: [10.1210/jcem.83.3.4636](https://doi.org/10.1210/jcem.83.3.4636). PMID: 9506765.
+-   van Faassen M, Bischoff R, Kema IP. Relationship between plasma and salivary melatonin and cortisol investigated by LC-MS/MS. *Clinical Chemistry and Laboratory Medicine*. 2017. DOI: [10.1515/cclm-2016-0817](https://doi.org/10.1515/cclm-2016-0817). PMID: 27997348.
+-   Benloucif S et al. Measuring melatonin in humans. *Journal of Clinical Sleep Medicine*. 2008. DOI: [10.5664/jcsm.27083](https://doi.org/10.5664/jcsm.27083). PMID: 18350967.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Urinary melatonin and 6-sulphatoxymelatonin (aMT6s)
+
+**Assigned student:** Maria Oertel
+
+Explain urinary measurement of the principal melatonin metabolite 6-sulphatoxymelatonin, including timed collections, normalization or excretion-rate approaches, and how urine differs from saliva or plasma as a marker of circadian timing and integrated melatonin production.
+
+The section should resolve three practical questions:
+
+-   What exactly is measured in urine and over what time interval?
+-   What timing information is preserved or lost relative to saliva or plasma?
+-   How should timed urine collections and missed voids be documented?
+
+**Protocol contribution:** Specify the minimum requirements for a valid timed urinary aMT6s collection and report.
+
+### Seed literature
+
+-   St Hilaire MA, Lockley SW. Measuring Urinary 6-Sulphatoxymelatonin in Humans. *Methods in Molecular Biology*. 2022. DOI: [10.1007/978-1-0716-2593-4_4](https://doi.org/10.1007/978-1-0716-2593-4_4). PMID: 36180673.
+-   Nowak R et al. The correlation between serum and salivary melatonin concentrations and urinary 6-hydroxymelatonin sulphate excretion rates: two non-invasive techniques for monitoring human circadian rhythmicity. *Clinical Endocrinology*. 1987. DOI: [10.1111/j.1365-2265.1987.tb01172.x](https://doi.org/10.1111/j.1365-2265.1987.tb01172.x). PMID: 3436070.
+-   Benloucif S et al. Measuring melatonin in humans. *Journal of Clinical Sleep Medicine*. 2008. DOI: [10.5664/jcsm.27083](https://doi.org/10.5664/jcsm.27083). PMID: 18350967.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Home versus laboratory DLMO assessment, compliance and quality control
+
+**Assigned student:** Xu Nuo
+
+Compare at-home and laboratory phase assessments. Focus on dim-light compliance, sample timing, participant instructions, objective compliance measures, environmental control and the types of errors that can make a home profile uninterpretable.
+
+The section should resolve three practical questions:
+
+-   Under what conditions can at-home DLMO approximate laboratory assessment?
+-   Which compliance failures matter most?
+-   What should be measured objectively rather than relying only on participant report?
+
+**Protocol contribution:** Create a compact compliance and quality-control checklist that can be used for both laboratory and home sampling.
+
+### Seed literature
+
+-   Pullman RE, Roepke SE, Duffy JF. Laboratory validation of an in-home method for assessing circadian phase using dim light melatonin onset (DLMO). *Sleep Medicine*. 2012. DOI: [10.1016/j.sleep.2011.11.008](https://doi.org/10.1016/j.sleep.2011.11.008). PMID: 22445311.
+-   Murray JM et al. A Protocol to Determine Circadian Phase by At-Home Salivary Dim Light Melatonin Onset Assessment. *Journal of Pineal Research*. 2024. DOI: [10.1111/jpi.12994](https://doi.org/10.1111/jpi.12994). PMID: 39158010.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+# Analytical methods
+
+## Radioimmunoassay (RIA) for melatonin
+
+**Assigned student:** Lucien Bickerstaff
+
+Explain the principles, historical importance, analytical strengths and limitations of radioimmunoassay for melatonin. Address extraction, sensitivity, specificity, cross-reactivity, calibration, quality control and the practical consequences of using radioactive tracers.
+
+The section should resolve three practical questions:
+
+-   How does RIA quantify melatonin and why was it historically important?
+-   What are the main sources of analytical bias or imprecision?
+-   Which validation characteristics must be reported before results can be compared across assays?
+
+**Protocol contribution:** Define the assay-performance information that a paper or dataset using RIA should report.
+
+### Seed literature
+
+-   Kennaway DJ et al. A specific radioimmunoassay for melatonin in biological tissue and fluids and its validation by gas chromatography-mass spectrometry. *Endocrinology*. 1977. DOI: [10.1210/endo-101-1-119](https://doi.org/10.1210/endo-101-1-119). PMID: 862551.
+-   Chegini S et al. Direct enzyme-linked immunosorbent assay and a radioimmunoassay for melatonin compared. *Clinical Chemistry*. 1995. PMID: 7882512.
+-   Lockley SW. Journal of Pineal Research guideline for authors: Measuring melatonin in humans. *Journal of Pineal Research*. 2020. DOI: [10.1111/jpi.12664](https://doi.org/10.1111/jpi.12664). PMID: 32344453.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## ELISA and enzyme immunoassays for melatonin
+
+**Assigned student:** Isabel Santoja
+
+Review ELISA and related enzyme immunoassays, with particular attention to lower limits of quantification, extraction, matrix effects, specificity and the problem of using kits outside their validated concentration range. Contrast convenience with analytical validity.
+
+The section should resolve three practical questions:
+
+-   When is an ELISA sensitive enough for physiological melatonin measurements?
+-   How do extraction and matrix effects influence results?
+-   Why are kit values not automatically interchangeable across manufacturers or laboratories?
+
+**Protocol contribution:** Produce a minimum assay-validation checklist for ELISA/EIA-based melatonin work.
+
+### Seed literature
+
+-   Chegini S et al. Direct enzyme-linked immunosorbent assay and a radioimmunoassay for melatonin compared. *Clinical Chemistry*. 1995. PMID: 7882512.
+-   Kennaway DJ. Measuring morning melatonin levels with plasma melatonin ELISA kits is a poor choice on two levels. *Journal of Pineal Research*. 2022. DOI: [10.1111/jpi.12773](https://doi.org/10.1111/jpi.12773). PMID: 34655483.
+-   Lockley SW. Journal of Pineal Research guideline for authors: Measuring melatonin in humans. *Journal of Pineal Research*. 2020. DOI: [10.1111/jpi.12664](https://doi.org/10.1111/jpi.12664). PMID: 32344453.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## LC-MS/MS and assay comparability
+
+**Assigned student:** Lauren Lederer
+
+Introduce liquid chromatography-tandem mass spectrometry for melatonin measurement and compare it with immunoassays. Focus on sensitivity, specificity, calibration, matrix effects, low-concentration performance, agreement between methods and the implications of systematic bias for DLMO and amplitude estimates.
+
+The section should resolve three practical questions:
+
+-   What analytical advantages does LC-MS/MS offer?
+-   Where can LC-MS/MS and immunoassay results disagree?
+-   What evidence is required before values from two assay platforms are pooled or directly compared?
+
+**Protocol contribution:** Define when assay-method changes require bridging or method-comparison data.
+
+### Seed literature
+
+-   Demeuse JJ et al. Development and Validation of an Ultrasensitive LC-MS/MS Method for the Quantification of Melatonin in Human Saliva. *Journal of the American Society for Mass Spectrometry*. 2023. DOI: [10.1021/jasms.3c00021](https://doi.org/10.1021/jasms.3c00021). PMID: 37130062.
+-   Shin S et al. A Sensitive and Specific Liquid Chromatography-Tandem Mass Spectrometry Assay for Simultaneous Quantification of Salivary Melatonin and Cortisol: Development and Comparison With Immunoassays. *Annals of Laboratory Medicine*. 2021. DOI: [10.3343/alm.2021.41.1.108](https://doi.org/10.3343/alm.2021.41.1.108). PMID: 32829586.
+-   van Faassen M, Bischoff R, Kema IP. Relationship between plasma and salivary melatonin and cortisol investigated by LC-MS/MS. *Clinical Chemistry and Laboratory Medicine*. 2017. DOI: [10.1515/cclm-2016-0817](https://doi.org/10.1515/cclm-2016-0817). PMID: 27997348.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+# Behavioral and biological modifiers
+
+## Food, fasting, meal timing and oral contamination
+
+**Assigned student:** Luisa Lopes
+
+Separate two issues that are often conflated: physiological effects of food and meal timing on circadian biology, and immediate pre-analytical effects of eating or drinking on saliva collection. Evaluate what evidence supports fasting or meal-standardization rules during evening melatonin sampling.
+
+The section should resolve three practical questions:
+
+-   Does meal timing shift melatonin or mainly peripheral metabolic rhythms?
+-   How can eating or drinking interfere with saliva sampling independent of circadian physiology?
+-   Which restrictions should be evidence-based and which should simply be standardized and documented?
+
+**Protocol contribution:** Recommend a practical food and drink rule for the sampling window, with a rationale and a plan for documenting deviations.
+
+### Seed literature
+
+-   Wehrens SMT et al. Meal Timing Regulates the Human Circadian System. *Current Biology*. 2017. DOI: [10.1016/j.cub.2017.04.059](https://doi.org/10.1016/j.cub.2017.04.059). PMID: 28578930.
+-   Kennaway DJ. The appropriate and inappropriate uses of saliva melatonin measurements. *Chronobiology International*. 2024. DOI: [10.1080/07420528.2024.2428197](https://doi.org/10.1080/07420528.2024.2428197). PMID: 39533493.
+-   Lockley SW. Journal of Pineal Research guideline for authors: Measuring melatonin in humans. *Journal of Pineal Research*. 2020. DOI: [10.1111/jpi.12664](https://doi.org/10.1111/jpi.12664). PMID: 32344453.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Caffeine, alcohol, medications and exogenous melatonin
+
+**Assigned student:** Catherine Bratschi
+
+Review acute substances that can alter endogenous melatonin concentrations, metabolism or interpretability. Give particular attention to caffeine, alcohol, melatonin supplements and medications or supplements that could plausibly affect melatonin physiology or assay interpretation. The aim is a documentation strategy, not medical advice.
+
+The section should resolve three practical questions:
+
+-   Which commonly used substances have evidence for acute effects on melatonin?
+-   How can exogenous melatonin make endogenous measurement uninterpretable?
+-   What medication and substance-use metadata should be captured before and during sampling?
+
+**Protocol contribution:** Create a short pre-sampling substance and medication questionnaire plus a deviation rule for the guide.
+
+### Seed literature
+
+-   Ursing C et al. Caffeine raises the serum melatonin level in healthy subjects: an indication of melatonin metabolism by cytochrome P450(CYP)1A2. *European Journal of Clinical Pharmacology*. 2003. DOI: [10.1007/BF03345194](https://doi.org/10.1007/BF03345194). PMID: 12906366.
+-   Ekman AC et al. Ethanol inhibits melatonin secretion in healthy volunteers in a dose-dependent randomized double blind cross-over study. *Journal of Clinical Endocrinology & Metabolism*. 1993. DOI: [10.1210/jcem.77.3.8370699](https://doi.org/10.1210/jcem.77.3.8370699). PMID: 8370699.
+-   Shirakawa S et al. Time course of saliva and serum melatonin levels after ingestion of melatonin. *Psychiatry and Clinical Neurosciences*. 1998. DOI: [10.1111/j.1440-1819.1998.tb01067.x](https://doi.org/10.1111/j.1440-1819.1998.tb01067.x). PMID: 9628188.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Posture and physical activity effects
+
+**Assigned student:** Aadesh Dave
+
+Examine how posture can change measured melatonin concentration through hemodynamic and related effects, and how movement or exercise around sampling may complicate interpretation. Distinguish true circadian changes from acute concentration changes and protocol non-standardization.
+
+The section should resolve three practical questions:
+
+-   How large and rapid can posture-related changes be?
+-   Should posture be fixed throughout the sampling window or for a defined period before each sample?
+-   Which activity deviations should be recorded?
+
+**Protocol contribution:** Recommend a posture and activity standardization rule that is realistic for a six-hour evening protocol.
+
+### Seed literature
+
+-   Deacon S, Arendt J. Posture influences melatonin concentrations in plasma and saliva in humans. *Neuroscience Letters*. 1994. DOI: [10.1016/0304-3940(94)91059-6](https://doi.org/10.1016/0304-3940(94)91059-6). PMID: 8177523.
+-   Benloucif S et al. Measuring melatonin in humans. *Journal of Clinical Sleep Medicine*. 2008. DOI: [10.5664/jcsm.27083](https://doi.org/10.5664/jcsm.27083). PMID: 18350967.
+-   Sletten TL et al. Timing of sleep and its relationship with the endogenous melatonin rhythm. *Frontiers in Neurology*. 2010. DOI: [10.3389/fneur.2010.00137](https://doi.org/10.3389/fneur.2010.00137). PMID: 21188265.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Menstrual cycle, hormonal contraception and reproductive state
+
+**Assigned student:** Zahrah Alkaff
+
+Review evidence on menstrual-cycle phase, reproductive hormones and hormonal contraception in relation to melatonin timing and amplitude. Distinguish effects on circadian physiology from changes in sleep or body temperature, and identify where evidence is mixed or underpowered.
+
+The section should resolve three practical questions:
+
+-   Does DLMO timing or melatonin amplitude vary systematically across the menstrual cycle?
+-   How should hormonal contraception be handled analytically and reported?
+-   Which reproductive-state variables are important enough to collect without overburdening participants?
+
+**Protocol contribution:** Propose a minimal, respectful set of reproductive-state metadata and explain how it should be used in analysis or sensitivity checks.
+
+### Seed literature
+
+-   Brzezinski A et al. The circadian rhythm of plasma melatonin during the normal menstrual cycle and in amenorrheic women. *Journal of Clinical Endocrinology & Metabolism*. 1988. DOI: [10.1210/jcem-66-5-891](https://doi.org/10.1210/jcem-66-5-891). PMID: 3129448.
+-   Baker FC, Driver HS. Circadian rhythms, sleep, and the menstrual cycle. *Sleep Medicine*. 2007. DOI: [10.1016/j.sleep.2006.09.011](https://doi.org/10.1016/j.sleep.2006.09.011). PMID: 17383933.
+-   Gunn PJ et al. Sex differences in the circadian profiles of melatonin and cortisol in plasma and urine matrices under constant routine conditions. *Chronobiology International*. 2016. DOI: [10.3109/07420528.2015.1112396](https://doi.org/10.3109/07420528.2015.1112396). PMID: 26731571.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Sex-related differences in melatonin and circadian timing
+
+**Assigned student:** Serhat Yildiz
+
+Assess evidence for sex-related differences in DLMO, phase angle, melatonin amplitude and melatonin measured in different biological matrices. Separate sex-related patterns from effects of hormonal contraception, age and other correlated factors.
+
+The section should resolve three practical questions:
+
+-   Are reported differences primarily in phase, amplitude or both?
+-   How consistent are findings across plasma, saliva and urine?
+-   Which covariates make apparently simple sex comparisons difficult to interpret?
+
+**Protocol contribution:** State what sex-related variables should be reported and what claims should be avoided without adequate design and power.
+
+### Seed literature
+
+-   Cain SW et al. Sex differences in phase angle of entrainment and melatonin amplitude in humans. *Journal of Biological Rhythms*. 2010. DOI: [10.1177/0748730410374943](https://doi.org/10.1177/0748730410374943). PMID: 20679498.
+-   Gunn PJ et al. Sex differences in the circadian profiles of melatonin and cortisol in plasma and urine matrices under constant routine conditions. *Chronobiology International*. 2016. DOI: [10.3109/07420528.2015.1112396](https://doi.org/10.3109/07420528.2015.1112396). PMID: 26731571.
+-   Kennaway DJ. The dim light melatonin onset across ages, methodologies, and sex and its relationship with morningness/eveningness. *Sleep*. 2023. DOI: [10.1093/sleep/zsad033](https://doi.org/10.1093/sleep/zsad033). PMID: 36799668.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Age and lifespan differences in melatonin
+
+**Assigned student:** José Mora-Almanza
+
+Review how melatonin timing, amplitude and production vary from childhood through older age. Distinguish age effects on DLMO timing from effects on peak concentration or total production, and consider how assay and sampling choices can exaggerate apparent age differences.
+
+The section should resolve three practical questions:
+
+-   How does DLMO timing change across age groups?
+-   What evidence supports age-related changes in melatonin amplitude or production?
+-   When comparing age groups, which sleep, light and assay factors need special attention?
+
+**Protocol contribution:** Define the age information and age-sensitive interpretation that should accompany melatonin results.
+
+### Seed literature
+
+-   Kennaway DJ. The dim light melatonin onset across ages, methodologies, and sex and its relationship with morningness/eveningness. *Sleep*. 2023. DOI: [10.1093/sleep/zsad033](https://doi.org/10.1093/sleep/zsad033). PMID: 36799668.
+-   Sack RL et al. Human melatonin production decreases with age. *Journal of Pineal Research*. 1986. DOI: [10.1111/j.1600-079x.1986.tb00760.x](https://doi.org/10.1111/j.1600-079x.1986.tb00760.x). PMID: 3783419.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Population, ancestry and ethnicity-related variation in melatonin and circadian timing
+
+**Assigned student:** Resshaya Murukesu
+
+Critically review studies reporting population differences in circadian period, melatonin output or light-induced melatonin suppression. Treat race and ethnicity as context-dependent social categories rather than simple biological variables, distinguish them from ancestry and pigmentation, and examine geographic, cultural and environmental confounding.
+
+The section should resolve three practical questions:
+
+-   What population differences have actually been demonstrated, and in which circadian outcomes?
+-   Which findings could reflect ancestry, pigmentation, environment, behavior, geography or study design?
+-   How should future studies report population characteristics without over-interpreting racial or ethnic categories?
+
+**Protocol contribution:** Write guidance for inclusive participant characterization and cautious interpretation of population differences.
+
+### Seed literature
+
+-   Eastman CI et al. Blacks (African Americans) have shorter free-running circadian periods than whites (Caucasian Americans). *Chronobiology International*. 2012. DOI: [10.3109/07420528.2012.700670](https://doi.org/10.3109/07420528.2012.700670). PMID: 22894720.
+-   Higuchi S et al. Influence of eye colors of Caucasians and Asians on suppression of melatonin secretion by light. *American Journal of Physiology-Regulatory, Integrative and Comparative Physiology*. 2007. DOI: [10.1152/ajpregu.00355.2006](https://doi.org/10.1152/ajpregu.00355.2006). PMID: 17332164.
+-   Wetterberg L et al. Circadian variation in urinary melatonin in clinically healthy women in Japan and the United States of America. *Experientia*. 1979. DOI: [10.1007/BF01964386](https://doi.org/10.1007/BF01964386). PMID: 446639.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+# Light environment and light history
+
+## Light exposure during melatonin sampling
+
+**Assigned student:** Andrea Sancho-Salas
+
+Establish why the light environment is part of the melatonin measurement itself. Review acute melatonin suppression, apparent shifts in melatonin onset under room light, large differences in individual sensitivity, and the need to report the spectral as well as photometric characteristics of the stimulus where possible.
+
+The section should resolve three practical questions:
+
+-   How dim is dim enough for a phase assessment, and why is a single lux threshold an incomplete description?
+-   How can evening light alter both melatonin concentration and the apparent DLMO?
+-   Which light measurements and exposure metadata should be collected during the sampling window?
+
+**Protocol contribution:** Specify the light-control and light-reporting section of the evening sampling protocol.
+
+### Seed literature
+
+-   Lewy AJ et al. Light suppresses melatonin secretion in humans. *Science*. 1980. DOI: [10.1126/science.7434030](https://doi.org/10.1126/science.7434030). PMID: 7434030.
+-   Gooley JJ et al. Exposure to room light before bedtime suppresses melatonin onset and shortens melatonin duration in humans. *Journal of Clinical Endocrinology & Metabolism*. 2011. DOI: [10.1210/jc.2010-2098](https://doi.org/10.1210/jc.2010-2098). PMID: 21193540.
+-   Phillips AJK et al. High sensitivity and interindividual variability in the response of the human circadian system to evening light. *Proceedings of the National Academy of Sciences of the United States of America*. 2019. DOI: [10.1073/pnas.1901824116](https://doi.org/10.1073/pnas.1901824116). PMID: 31138694.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
+
+## Prior light history and interindividual light sensitivity
+
+**Assigned student:** Theodore Krenek
+
+Review how light exposure before the measurement evening can alter subsequent circadian light sensitivity, and how strongly people differ in their response to the same evening light. Consider implications for multi-night repeated-measures studies in which one evening's exposure could carry over into the next.
+
+The section should resolve three practical questions:
+
+-   How does recent light history alter melatonin suppression by a later light exposure?
+-   How large is interindividual variation in evening-light sensitivity?
+-   What washout, ordering, prior-light monitoring or interpretation strategies can reduce carry-over and confounding?
+
+**Protocol contribution:** Propose what prior-light data should be collected and how multi-night session order should be documented and justified.
+
+### Seed literature
+
+-   Hébert M et al. The effects of prior light history on the suppression of melatonin by light in humans. *Journal of Pineal Research*. 2002. DOI: [10.1034/j.1600-079x.2002.01885.x](https://doi.org/10.1034/j.1600-079x.2002.01885.x). PMID: 12390501.
+-   Phillips AJK et al. High sensitivity and interindividual variability in the response of the human circadian system to evening light. *Proceedings of the National Academy of Sciences of the United States of America*. 2019. DOI: [10.1073/pnas.1901824116](https://doi.org/10.1073/pnas.1901824116). PMID: 31138694.
+-   Stone JE et al. Who Needs Bright Light and When? Mapping the Interactions of Lighting Environments and Individual Differences in Circadian Light Sensitivity. *Journal of Biological Rhythms*. 2026. DOI: [10.1177/07487304251391268](https://doi.org/10.1177/07487304251391268). PMID: 41405486.
+
+### Student contribution
+
+Students should write this section using the structure below. **The complete contribution must remain within 600 words, excluding references.** Synthesize across studies rather than summarizing papers one by one. Where the evidence is inconsistent or weak, say so explicitly.
+
+#### Evidence synthesis
+
+**Suggested length: 250-300 words.** Summarize what the literature collectively shows about the assigned topic. Focus on findings that affect the validity, interpretation or practical conduct of melatonin measurement. Compare studies where relevant and distinguish well-supported findings from common practice or convention.
+
+#### Sources of variability and uncertainty
+
+**Suggested length: 100-150 words.** Identify the main biological, behavioral, technical or analytical factors that could explain variation between participants, studies or methods. Note important limitations, unresolved questions and situations in which the available evidence may not generalize.
+
+#### Implications for measurement and reporting
+
+**Suggested length: 100-150 words.** Translate the evidence into consequences for study design and conduct. State what researchers should control, standardize, measure, document or report, and explain briefly why these elements matter.
+
+#### Protocol recommendation
+
+**Maximum 80 words.** Give a concise recommendation that can be incorporated directly into the final cohort melatonin protocol. It should be specific enough to act on and should distinguish requirements supported by evidence from pragmatic choices that simply need to be standardized within a study.
+
+#### References
+
+Provide **5-8 references in total**, including the seed literature and at least **2 additional papers identified independently**. Include DOI and PMID whenever available, with the DOI formatted as a clickable link.
